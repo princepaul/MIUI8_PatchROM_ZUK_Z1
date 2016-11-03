@@ -1,2 +1,3 @@
-# MIUI8_PatchROM_ZUK_Z1
-MIUI8 PatchROM for ZUK Z1
+# MIUI8 PatchROM for ZUK Z1
+
+Initializing...!!!
