@@ -526,6 +526,10 @@
     .line 452
     invoke-virtual {v2}, Landroid/app/ProgressDialog;->show()V
 
+    sget-boolean v4, Lcom/android/server/power/ShutdownThread;->mReboot:Z
+
+    invoke-static {p0, v4}, Lcom/android/server/power/ShutdownThreadInjector;->showShutdownDialog(Landroid/content/Context;Z)V
+
     .line 455
     :cond_2
     sget-object v3, Lcom/android/server/power/ShutdownThread;->sInstance:Lcom/android/server/power/ShutdownThread;
