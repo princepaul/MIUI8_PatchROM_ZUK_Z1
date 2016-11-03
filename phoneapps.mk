@@ -5,42 +5,42 @@ private-phone-apps := \
 	BasicDreams \
 	Bluetooth \
 	BluetoothExt \
+	BluetoothMidiService \
 	CertInstaller \
-	com.qualcomm.location \
-	ConfigPanel \
 	Galaxy4 \
 	HoloSpiralWallpaper \
 	KeyChain \
 	LiveWallpapers \
-	Nfc \
 	NoiseField \
-	OppoNvProcess \
-	OppoRadioShutdown \
 	PacProcessor \
 	PhaseBeam \
 	PhotoTable \
-	PicoTts \
-	PPPreference \
-	qcrilmsgtunnel \
 	PrintSpooler \
+	LatinIME \
+	shutdownlistener \
 	Stk \
 	telresources \
+	TimeService \
 	WAPPushManager
 
 private-phone-priv-apps := \
 	AudioFX \
 	BackupRestoreConfirmation \
+	CarrierConfig \
 	CellBroadcastReceiver \
-	CMAudioService \
 	CMSettingsProvider \
+	CMAudioService \
+	ThemeManagerService \
 	ExternalStorageProvider \
 	FusedLocation \
 	InputDevices \
 	ProxyHandler \
-	Screencast \
+	qcrilmsgtunnel \
+	StatementService \
 	SharedStorageBackup \
 	Shell \
-	Snap \
-	Tag \
+	Telecom \
+	TelephonyProvider \
+	TeleService \
 	ThemesProvider
 
