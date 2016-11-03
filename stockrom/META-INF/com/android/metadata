@@ -1,0 +1,3 @@
+post-build=zuk/ham/Z1:6.0.1/MMB29X/be1fd35e07:userdebug/test-keys
+post-timestamp=1461021380
+pre-device=Z1
