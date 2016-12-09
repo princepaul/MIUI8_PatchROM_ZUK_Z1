@@ -8112,20 +8112,19 @@
 
     .line 3982
     :cond_10
-    iget-object v8, p1, Lcom/android/server/am/ActivityRecord;->packageName:Ljava/lang/String;
+    iget-object v9, p1, Lcom/android/server/am/ActivityRecord;->packageName:Ljava/lang/String;
 
-    invoke-static {v8, v0, v3, v1}, Landroid/app/MiuiThemeHelper;->canKeepActivityAlive(Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/Configuration;)Z
+    invoke-static {v9, v0, v3, v1}, Landroid/app/MiuiThemeHelper;->canKeepActivityAlive(Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/Configuration;)Z
 
-    move-result v8
+    move-result v9
 
-    if-eqz v8, :cond_miui_f
+    if-eqz v9, :cond_miui_f
 
-    const/4 v8, 0x1
+    const/4 v9, 0x1
 
-    return v8
+    return v9
 
     :cond_miui_f
-
     iget-object v9, p1, Lcom/android/server/am/ActivityRecord;->info:Landroid/content/pm/ActivityInfo;
 
     invoke-virtual {v9}, Landroid/content/pm/ActivityInfo;->getRealConfigChanged()I
